@@ -10,5 +10,6 @@ class Student < User
 
   def learn
     @knowledge << knowledge.sample(1)
+  end
 
 end
